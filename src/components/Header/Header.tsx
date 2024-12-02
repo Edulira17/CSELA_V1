@@ -1,14 +1,18 @@
-import { HeaderContainer, HeaderNav, HeaderLink, HeaderTitle } from "./styles";
+import { HeaderContainer, HeaderNav, HeaderLink, HeaderTitle, HeaderLogo } from "./styles";
+
+import LogoCsela from '../../assets/LOGO CSELA.png'
 
 const Header = () => {
   return (
     <HeaderContainer>
       <HeaderTitle>
-        <h1>CSELA</h1>
+        <HeaderLogo src={LogoCsela} alt="Logo do CSELA" />
+        <h1>CENTRO SOCIAL E EDUCAIONAL DO LAGO DO ALEIXO - CSELA</h1>
       </HeaderTitle>
       <HeaderNav>
         <HeaderLink to="/">Início</HeaderLink>
         <HeaderLink to="history">História</HeaderLink>
+        <HeaderLink to="collaborators">Colaboradores</HeaderLink>
       </HeaderNav>
     </HeaderContainer>
   );
