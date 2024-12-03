@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import { LayoutContainer, LayoutMainContent } from "./styles";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 const Layout: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Layout: React.FC = () => {
       <LayoutMainContent>
         <Outlet />
       </LayoutMainContent>
+      <Footer />
     </LayoutContainer>
   );
 };
