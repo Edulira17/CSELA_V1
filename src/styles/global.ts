@@ -7,4 +7,9 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: "Inter";
   }
-`
+
+  h3, 
+  h4 {
+    color: #fff;
+  }
+`;
