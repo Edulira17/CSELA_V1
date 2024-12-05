@@ -1,9 +1,11 @@
-import { HomeContainer } from "./styles"
+import { HomeContainer, CarouselContainer } from "./styles"
 
 const Home = () => {
   return (
     <HomeContainer>
-      <h1>home</h1>
+      <CarouselContainer>
+        <h1>carousel</h1>
+      </CarouselContainer>
     </HomeContainer>
   )
 }
