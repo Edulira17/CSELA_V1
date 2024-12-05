@@ -36,16 +36,43 @@ export const LinkAddress = styled.a`
 `;
 
 export const AboutUsContainer = styled.div`
-  width: 40%;
+  width: 30%;
   padding: 1rem;
-  
+
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
 
-  p{
-    font-size: .9rem;
+  p {
+    font-size: 0.9rem;
+    text-align: justify;
+    color: #c1c1c1;
   }
-  
+`;
+
+
+export const TalkUsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  padding: 2rem;
+`
+
+export const IconContainer = styled.div`
+  display: flex;
+  gap: 20px;
+
+  .icon {
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .icon:hover{
+    color: #fff;
+  }
 `
