@@ -1,0 +1,19 @@
+.slider {
+  max-width: 1120px;
+  border-radius: 16px;
+}
+
+.slider-item img {
+  width: 100%;
+  height: 350px;
+
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #B22222 !important;
+}
+
