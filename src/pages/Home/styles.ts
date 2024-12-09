@@ -45,6 +45,8 @@ export const CardImageContainer = styled.div`
   width: 70%;
   justify-items: center; 
 
+  margin-top: 2rem;
+
   img {
     width: 250px;
     height: 250px;
@@ -76,7 +78,7 @@ export const DescriptionImage = styled.figcaption`
   flex-direction: column;
   align-items: start;
   
-  max-width: 60%;
+  max-width: 100%;
   gap: .5rem;
 `;
 
