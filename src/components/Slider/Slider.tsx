@@ -13,7 +13,7 @@ import slide1 from './assets/csela_img1.png'
 import slide2 from './assets/csela_img2.png'
 import slide3 from './assets/csela_facebook_1.jpg'
 import slide4 from './assets/ecae_criancas.jpg'
-import slide5 from './assets/ecae_oficina_violao.jpg'
+import slide5 from './assets/oficina_violao.jpg'
 
 const Slider = () => {
   return (

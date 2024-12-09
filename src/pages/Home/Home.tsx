@@ -5,15 +5,18 @@ import {
   HomeContent,
   SliderContainer,
   CardImage,
-  StyledTitle
+  StyledTitle,
+  TitleImage,
+  SubtitleImage,
+  DescriptionImage,
 } from "./styles";
 
 // images
 import imageCard1 from "./assets/dia_internacional_grafite.png";
-import imageCard2 from "./assets/cantata_de_natal.jpg"
-import imageCard3 from "./assets/espaco_cidadao.jpg"
-import imageCard4 from "./assets/moradia_cidadania.jpg"
-import imageCard5 from "./assets/mostra_cultural.jpg"
+import imageCard2 from "./assets/oficina_violao.jpg";
+import imageCard3 from "./assets/espaco_cidadao.jpg";
+import imageCard4 from "./assets/moradia_cidadania.jpg";
+import imageCard5 from "./assets/mostra_cultural.jpg";
 
 const Home = () => {
   return (
@@ -26,24 +29,50 @@ const Home = () => {
         <CardImageContainer>
           <CardImage>
             <img src={imageCard1} alt="" />
-            <figcaption>Dia Internacional do Grafite</figcaption>
+            <DescriptionImage>
+              <TitleImage>Dia Internacional do Grafite</TitleImage>
+              <SubtitleImage>
+                Dia Internacional do Graffiti, 27 de março
+              </SubtitleImage>
+            </DescriptionImage>
           </CardImage>
           <CardImage>
             <img src={imageCard2} alt="" />
-            <figcaption>Cantata de Natal</figcaption>
+            <DescriptionImage>
+              <TitleImage>Oficina de Violão</TitleImage>
+              <SubtitleImage>
+                Oficina de Violão realizada no dia 11 de março
+              </SubtitleImage>
+            </DescriptionImage>
           </CardImage>
           <CardImage>
             <img src={imageCard3} alt="" />
-            <figcaption>Espaço
-            Cidadão de Artes e Educação</figcaption>
+            <DescriptionImage>
+              <TitleImage>Espaço Cidadão de Artes e Educação</TitleImage>
+              <SubtitleImage>
+                Servindo nossa comunidade, contribuindo com a educação de nossas
+                crianças
+              </SubtitleImage>
+            </DescriptionImage>
           </CardImage>
           <CardImage>
             <img src={imageCard4} alt="" />
-            <figcaption> FENAE, MORADIA E CIDADANIA e APCEF-AM</figcaption>
+            <DescriptionImage>
+              <TitleImage>FENAE, MORADIA E CIDADANIA e APCEF-AM</TitleImage>
+              <SubtitleImage>
+                CSELA/ECAE, teve a honra em receber os nossos parceiros da
+                FENAE, MORADIA E CIDADANIA e APCEF-AM.
+              </SubtitleImage>
+            </DescriptionImage>
           </CardImage>
           <CardImage>
             <img src={imageCard5} alt="" />
-            <figcaption>Mostra cultural do Ecae</figcaption>
+            <DescriptionImage>
+              <TitleImage>Mostra Cultural</TitleImage>
+              <SubtitleImage>
+                Mostra cultural do Ecae com o tema: Catástrofe climáticas
+              </SubtitleImage>
+            </DescriptionImage>
           </CardImage>
         </CardImageContainer>
       </HomeContent>
