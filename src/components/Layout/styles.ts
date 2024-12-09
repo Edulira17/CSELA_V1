@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const LayoutContainer = styled.div`
-  height: 100vh;
+  width: 100%;
+  min-height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -12,8 +13,9 @@ export const LayoutContainer = styled.div`
 
 export const LayoutMainContent = styled.main`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 
   display: flex;
-  
+  flex-direction: column;
+  flex-wrap: wrap;
 `
