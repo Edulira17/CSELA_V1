@@ -22,8 +22,20 @@ export const TitleHistory = styled.h1`
 export const HistoryContent = styled.section`
   max-width: 70%;
   padding: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
 
   .text-history {
     font-size: 1.2rem;
   }
+`
+
+export const ImageLocal = styled.img`
+  width: 450px;
+  border-radius: 8px;
+  border: 2px solid #fff;
 `
